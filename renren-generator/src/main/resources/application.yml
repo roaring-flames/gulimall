@@ -7,13 +7,13 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     #MySQL配置
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://47.104.183.2:3300/gulimall_pms?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://47.104.183.2:3300/gulimall_wms?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: jls5221318
     #oracle配置
     #    driverClassName: oracle.jdbc.OracleDriver
-    #    url: jdbc:oracle:thin:@47.100.206.162:1521:xe
-    #    username: renren
+    #    url: jdbc:oracle:thin:@168.168.0.22:1521:orcl
+    #    username: wechat
     #    password: 123456
     #SQLServer配置
     #    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
