@@ -4,10 +4,12 @@ spring:
     password: jls5221318
     url: jdbc:mysql://47.104.183.2:3300/gulimall_ums
     driver-class-name: com.mysql.jdbc.Driver
-#  cloud:
-#    nacos:
-#      discovery:
-#        server-addr: 127.0.0.1:8848
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: gulimall-member
   #格式化时间
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss

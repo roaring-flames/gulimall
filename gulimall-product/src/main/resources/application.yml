@@ -8,6 +8,8 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+  application:
+    name: gulimall-product
   #格式化时间
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
