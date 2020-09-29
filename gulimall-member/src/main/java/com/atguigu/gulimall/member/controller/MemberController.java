@@ -27,7 +27,7 @@ public class MemberController {
 
     //远程接口
     @Autowired
-    CouponFeignService couponFeignService;
+    private CouponFeignService couponFeignService;
 
     @RequestMapping("/coupons")
     public R test() {

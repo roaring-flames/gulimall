@@ -33,11 +33,10 @@ public class CouponController {
     @Value("${coupon.user.age}")
     private Integer age;
 
-    @RequestMapping("/test")
+    @GetMapping("/test")
     public R tests(){
         return R.ok().put("name",name).put("age",age);
     }
-
 
 
     //被远程调用测试
@@ -45,6 +44,7 @@ public class CouponController {
     public R test() {
         CouponEntity couponEntity = new CouponEntity();
         couponEntity.setCouponName("满100减十");
+        couponEntity.setCouponType(20);
 
         return R.ok().put("coupons", Arrays.asList(couponEntity));
     }
