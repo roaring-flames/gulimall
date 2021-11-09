@@ -5,19 +5,16 @@ springboot案例
 
 #### 软件架构
 软件架构说明
-
+nacos,redis,mybatisplus,mysql,kafaka,springboot.seate
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  拉取代码导入依赖即可
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  本案例仅供学习使用，请勿用于商业
+2.  如有相似之处请及时批评指正
 
 #### 参与贡献
 
